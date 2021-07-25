@@ -1,0 +1,28 @@
+{
+    "name": "jepisoft",
+    "version": "1.0.0",
+    "description": "JEPISOFT - Digital Agency",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "author": "JepiSof.com",
+    "license": "ISC",
+    "dependencies": {
+        "next": "^9.4.4",
+        "next-seo": "^4.5.0",
+        "next-videos": "^1.1.4",
+        "react": "^16.13.1",
+        "react-accessible-accordion": "^3.0.1",
+        "react-dom": "^16.13.1",
+        "react-image-lightbox": "^5.1.1",
+        "react-modal-video": "^1.2.3",
+        "react-owl-carousel3": "^2.2.5",
+        "react-particles-js": "^2.7.1",
+        "react-visibility-sensor": "^5.1.1",
+        "react-wow": "^1.0.0",
+        "sass": "^1.26.8"
+    }
+}
