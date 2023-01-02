@@ -10,15 +10,19 @@ import '../public/css/responsive.css';
 
 import App from 'next/app';
 import { DefaultSeo } from 'next-seo';
- import Loader from '../components/Shared/Loader';
+import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import CookieConsent from "react-cookie-consent";
 
 export default class MyApp extends App {
-    static async getInitialProps ({ Component, ctx }) {
+
+    static async getInitialProps({ Component, ctx }) {
         return {
             pageProps: Component.getInitialProps
-            ? await Component.getInitialProps(ctx)
-            : {}
+                ? await Component.getInitialProps(ctx)
+                : {}
         }
     }
 
@@ -27,7 +31,7 @@ export default class MyApp extends App {
         loading: true
     };
     componentDidMount() {
-        this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 
+        this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000);
     }
     componentWillUnmount() {
         if (this.timerHandle) {
@@ -35,25 +39,52 @@ export default class MyApp extends App {
             this.timerHandle = 0;
         }
     }
-    
-    render () {
+
+
+
+    render() {
         const { Component, pageProps } = this.props
+        //const router = useRouter();
+
+        /*useEffect(() => {
+            const handleRouteChange = (url) => {
+                window.gtag("config", "G-7W0DLDJKTQ", {
+                    page_path: url,
+                });
+            };
+            router.events.on("routeChangeComplete", handleRouteChange);
+            return () => {
+                router.events.off("routeChangeComplete", handleRouteChange);
+            };
+        }, [router.events]);*/
 
         return (
             <React.Fragment>
                 <DefaultSeo
-                    title="JepiSoft - Agencia de Desarrollo de Software"
-                    description="JepiSoft - Agencia de Desarrollo de Software. Ofrecemos soluciones en desarrollo de software adaptado 100% a tus necesidades."
+                    title="JepiSoft - Consultoria IT"
+                    description="JepiSoft - Consultoria IT. Ofrecemos soluciones tecnologicas adaptadas 100% a tus necesidades."
                     openGraph={{
                         type: 'website',
                         locale: 'en_IE',
-                        url: 'https://jeansystem.com/',
-                        site_name: 'JepiSoft - Agencia de Desarrollo de Software',
+                        url: 'https://jepisoft.com/',
+                        site_name: 'JepiSoft - Consultoria IT',
                     }}
                 />
 
                 <Component {...pageProps} />
-                
+                {/*<CookieConsent
+                    location="bottom"
+                    buttonText="Sí, utilizar cookies."
+                    onAccept={() => location.reload()}
+                    cookieName="CookieConsent"
+                    expires={150}
+                    enableDeclineButton="true"
+                    declineButtonText="No, no utilizar cookies"
+                >
+                    Poner aquí el mensaje sobre el uso de cookies
+                    <a href="#enlace_hacia_politica_de_cookies">Política de Cookies</a>.
+                </CookieConsent>*/}
+
                 {/* Preloader */}
                 { /*<Loader loading={this.state.loading} /> */}
 
