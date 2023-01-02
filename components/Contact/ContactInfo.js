@@ -26,7 +26,6 @@ class ContactInfo extends Component {
                                 </div>
                                 <h3>Visitanos</h3>
                                 <p>Cancun, <br /> Quintana Roo, Mexico.</p>
-                                { /*<p>Cuetzalan del Progreso, <br /> Puebla, Mexico.</p>*/ }
                             </div>
                         </div>*/}
 
