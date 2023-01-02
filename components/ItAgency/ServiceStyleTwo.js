@@ -28,6 +28,10 @@ class ServiceStyleTwo extends Component {
                                                 <i className="icofont-check-circled"></i>
                                                  Aplicaciones Nativas e híbridas iOS y Android
                                             </div>
+                                            <div className="feature-list">
+                                                <i className="icofont-check-circled"></i>
+                                                Ingenieria DevOps
+                                            </div>
                                         </div>
                                         <div className="col-sm-6">
                                             <div className="feature-list">
@@ -41,10 +45,6 @@ class ServiceStyleTwo extends Component {
                                             <div className="feature-list">
                                                 <i className="icofont-check-circled"></i>
                                                 Gestion de Proyectos Utilizando Metodologias Kanban o Scrum
-                                            </div>
-                                            <div className="feature-list">
-                                                <i className="icofont-check-circled"></i>
-                                                Ingenieria DevOps
                                             </div>
                                         </div>
                                     </div>
