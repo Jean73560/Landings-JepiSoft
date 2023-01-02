@@ -9,7 +9,7 @@ class ContactInfo extends Component {
                         <h2>Contáctanos</h2>                            
                     </div>
                     <div className="row">
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-6 col-md-6">
                             <div className="contact-info-box">
                                 <div className="icon">
                                     <i className="pe-7s-mail"></i>
@@ -29,7 +29,7 @@ class ContactInfo extends Component {
                             </div>
                         </div>*/}
 
-                        <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                        <div className="col-lg-6 col-md-6 offset-lg-0 offset-md-3">
                             <div className="contact-info-box">
                                 <div className="icon">
                                     <i className="pe-7s-call"></i>
