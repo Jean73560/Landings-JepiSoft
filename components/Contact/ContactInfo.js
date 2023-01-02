@@ -15,11 +15,11 @@ class ContactInfo extends Component {
                                     <i className="pe-7s-mail"></i>
                                 </div>
                                 <h3>Correo</h3>                                
-                                <p>info@jepisoft.com</p>
+                                <p>jeanpierresoto93@gmail.com</p>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+            {/*<div className="col-lg-4 col-md-6">
                             <div className="contact-info-box">
                                 <div className="icon">
                                     <i className="pe-7s-map-2"></i>
@@ -28,7 +28,7 @@ class ContactInfo extends Component {
                                 <p>Cancun, <br /> Quintana Roo, Mexico.</p>
                                 { /*<p>Cuetzalan del Progreso, <br /> Puebla, Mexico.</p>*/ }
                             </div>
-                        </div>
+                        </div>*/}
 
                         <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                             <div className="contact-info-box">
