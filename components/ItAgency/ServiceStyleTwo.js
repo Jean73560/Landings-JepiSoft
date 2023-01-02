@@ -143,10 +143,6 @@ class ServiceStyleTwo extends Component {
                                                 <i className="icofont-check-circled"></i>
                                                 Google Ads
                                             </div>
-                                            <div className="feature-list">
-                                                <i className="icofont-check-circled"></i>
-                                                Tiktok Ads
-                                            </div>
                                         </div>
 
                                         <div className="col-sm-6">
@@ -157,6 +153,10 @@ class ServiceStyleTwo extends Component {
                                             <div className="feature-list">
                                                 <i className="icofont-check-circled"></i>
                                                 Google Analytics
+                                            </div>
+                                            <div className="feature-list">
+                                                <i className="icofont-check-circled"></i>
+                                                Tiktok Ads
                                             </div>
                                         </div>
                                     </div>
