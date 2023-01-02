@@ -28,10 +28,6 @@ class ServiceStyleTwo extends Component {
                                                 <i className="icofont-check-circled"></i>
                                                  Aplicaciones Nativas e híbridas iOS y Android
                                             </div>
-                                            <div className="feature-list">
-                                                <i className="icofont-check-circled"></i>
-                                                Progressive Web Apps 
-                                            </div>
                                         </div>
                                         <div className="col-sm-6">
                                             <div className="feature-list">
@@ -44,7 +40,11 @@ class ServiceStyleTwo extends Component {
                                             </div>
                                             <div className="feature-list">
                                                 <i className="icofont-check-circled"></i>
-                                                Desarrollo Web con React JS. Angular y .Net
+                                                Gestion de Proyectos Utilizando Metodologias Kanban o Scrum
+                                            </div>
+                                            <div className="feature-list">
+                                                <i className="icofont-check-circled"></i>
+                                                Ingenieria DevOps
                                             </div>
                                         </div>
                                     </div>
@@ -59,61 +59,8 @@ class ServiceStyleTwo extends Component {
                         </div>
                     </div>
                 </div>
-
-                <div className="service-style-two ptb-100">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6">
-                                <div className="service-left-img">
-                                    <img src="/images/Logo-Marketing1.png" alt="Service Image" />
-                                </div>
-                            </div>
-
-                            <div className="col-lg-6">
-                                <div className="service-info pl-50">
-                                    <div className="info-head">
-                                        <h2 className="title">Marketing Digital</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                                    </div>
-
-                                    <div className="row">
-                                        <div className="col-sm-6">
-                                            <div className="feature-list">
-                                                <i className="icofont-check-circled"></i>
-                                                SEO Marketing
-                                            </div>
-                                            <div className="feature-list">
-                                                <i className="icofont-check-circled"></i>
-                                                Facebook Marketing
-                                            </div>
-                                            <div className="feature-list">
-                                                <i className="icofont-check-circled"></i>
-                                                Social Marketing
-                                            </div>
-                                        </div>
-
-                                        <div className="col-sm-6">
-                                            <div className="feature-list">
-                                                <i className="icofont-check-circled"></i>
-                                                Email Marketing
-                                            </div>
-                                            <div className="feature-list">
-                                                <i className="icofont-check-circled"></i>
-                                                Google Analytics
-                                            </div>
-                                            <div className="feature-list">
-                                                <i className="icofont-check-circled"></i>
-                                                Youtube Marketing
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="service-style-two ptb-100 bg-fcfbfb">
+        
+                        <div className="service-style-two ptb-100 bg-fcfbfb">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6">
@@ -146,7 +93,7 @@ class ServiceStyleTwo extends Component {
                                             </div>
                                             <div className="feature-list">
                                                 <i className="icofont-check-circled"></i>
-                                                Integradores de pago seguro como PayPal, Stripe y más.
+                                                Integradores de pago seguro como PayPal, Stripe, Open Pay y más.
                                             </div>
                                             <div className="feature-list">
                                                 <i className="icofont-check-circled"></i>
@@ -160,6 +107,59 @@ class ServiceStyleTwo extends Component {
                             <div className="col-lg-6">
                                 <div className="service-right-img">
                                     <img src="/images/eCommerece.png" alt="Service Image" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="service-style-two ptb-100">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="service-left-img">
+                                    <img src="/images/Logo-Marketing1.png" alt="Service Image" />
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6">
+                                <div className="service-info pl-50">
+                                    <div className="info-head">
+                                        <h2 className="title">Marketing Digital</h2>
+                                        <p>Te ayudamos a definir tu estrategia de marketing para poder ayudar a crecer tu negocio en base a lo que quieren tus usuarios.</p>
+                                    </div>
+
+                                    <div className="row">
+                                        <div className="col-sm-6">
+                                            <div className="feature-list">
+                                                <i className="icofont-check-circled"></i>
+                                                SEO Marketing
+                                            </div>
+                                            <div className="feature-list">
+                                                <i className="icofont-check-circled"></i>
+                                                Facebook Ads
+                                            </div>
+                                            <div className="feature-list">
+                                                <i className="icofont-check-circled"></i>
+                                                Google Ads
+                                            </div>
+                                            <div className="feature-list">
+                                                <i className="icofont-check-circled"></i>
+                                                Tiktok Ads
+                                            </div>
+                                        </div>
+
+                                        <div className="col-sm-6">
+                                            <div className="feature-list">
+                                                <i className="icofont-check-circled"></i>
+                                                Email Marketing
+                                            </div>
+                                            <div className="feature-list">
+                                                <i className="icofont-check-circled"></i>
+                                                Google Analytics
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
